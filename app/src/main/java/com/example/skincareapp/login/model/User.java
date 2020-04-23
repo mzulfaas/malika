@@ -9,6 +9,10 @@ public class User implements IUser {
 
     String email, password;
 
+    public Boolean login() {
+        return email.equals("danahyper@gmail.com") && password.equals("simontok");
+    }
+
     public User(String email, String password) {
         this.email = email;
         this.password = password;
@@ -30,10 +34,12 @@ public class User implements IUser {
             return 0;
         } else if(!Patterns.EMAIL_ADDRESS.matcher(getEmail()).matches()) {
             return 1;
-        } else if(getPassword().length() <= 6) {
+        } else if(getPassword().length() <= 5) {
             return 2;
         } else {
             return -1;
         }
     }
+
+
 }
