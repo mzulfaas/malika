@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login.LoginActivity"
+    tools:context="login.LoginActivity"
     android:orientation="vertical">
 
 
@@ -54,9 +54,10 @@
     <Button
         android:id="@+id/btn_daftar"
         style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:text="Daftar"
+        android:layout_gravity="center"
         android:layout_marginTop="32dp" />/>
 
 </LinearLayout>

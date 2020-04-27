@@ -1,4 +1,4 @@
-package com.example.skincareapp.login.presenter;
+package login.presenter;
 
 public interface ILoginPresenter {
     void onLogin(String email, String password);

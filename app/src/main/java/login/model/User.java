@@ -1,9 +1,7 @@
-package com.example.skincareapp.login.model;
+package login.model;
 
 import android.text.TextUtils;
 import android.util.Patterns;
-
-import com.example.skincareapp.login.model.IUser;
 
 public class User implements IUser {
 

@@ -1,4 +1,4 @@
-package com.example.skincareapp.login.view;
+package login.view;
 
 public interface ILoginView {
     void onLoginSuccess(String message);

@@ -1,4 +1,4 @@
-package com.example.skincareapp.login;
+package login;
 
 
 import android.os.Bundle;
@@ -10,9 +10,9 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.skincareapp.R;
-import com.example.skincareapp.login.presenter.ILoginPresenter;
-import com.example.skincareapp.login.presenter.LoginPresenter;
-import com.example.skincareapp.login.view.ILoginView;
+import login.presenter.ILoginPresenter;
+import login.presenter.LoginPresenter;
+import login.view.ILoginView;
 
 import es.dmoral.toasty.Toasty;
 

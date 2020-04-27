@@ -1,9 +1,9 @@
-package com.example.skincareapp.login.presenter;
+package login.presenter;
 
 
 
-import com.example.skincareapp.login.model.User;
-import com.example.skincareapp.login.view.ILoginView;
+import login.model.User;
+import login.view.ILoginView;
 
 public class LoginPresenter implements ILoginPresenter {
 

@@ -1,4 +1,4 @@
-package com.example.skincareapp.login.model;
+package login.model;
 
 public interface IUser {
     String getEmail();
