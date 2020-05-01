@@ -31,6 +31,7 @@ public class LoginPresenter implements ILoginPresenter {
         } else {
             if(user.login())
                  loginView.onLoginSuccess("Login success");
+
             else
                  loginView.onLoginError("Username dan password tidak cocok.");
         }

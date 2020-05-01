@@ -1,6 +1,7 @@
 package login;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -10,6 +11,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.skincareapp.R;
+
+import kamera.kameraActivity;
 import login.presenter.ILoginPresenter;
 import login.presenter.LoginPresenter;
 import login.view.ILoginView;
@@ -47,6 +50,9 @@ public class LoginActivity extends AppCompatActivity implements ILoginView {
     @Override
     public void onLoginSuccess(String message) {
         Toasty.success(this, message, Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(LoginActivity.this, kameraActivity.class);
+        startActivity(intent);
+
     }
 
     @Override
